@@ -9,7 +9,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home_page():
-    return "<h1 style='background-color:None;'text-align:center;'>Hello! </h1><h2>I am Kavya. Welcome to Home Page.Please redirect to http://127.0.0.1:5000/upper enter username</h2>"
+    return "<h1 style='background-color:None;'text-align:center;'>Hello! </h1><h2>I am Kavya. Welcome to Home Page.Please redirect to     http://127.0.0.1:5000/upper</h2>"
 
 
 @app.route('/upper')
